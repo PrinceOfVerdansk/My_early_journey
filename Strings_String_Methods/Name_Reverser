@@ -1,0 +1,10 @@
+''' 
+Name Reverser - Take a name and print it backwards
+'''
+
+
+name = input(" Enter your name so it can be reversed: ").lower()
+
+r_name = name[::-1].capitalize()
+
+print(r_name)
