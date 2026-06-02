@@ -2,7 +2,6 @@
 Number Checker - Check if a number is positive, negative, or zero
 '''
 
-
 number = float(input("Enter a number: "))   
 
 if number > 0:
