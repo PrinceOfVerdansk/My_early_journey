@@ -1,0 +1,16 @@
+'''
+'''
+
+def rps(p1, p2):
+    if p1 == p2:
+        return "It's a draw"
+    elif (p1 == 'rock' and p2 == 'scissors') or (p1 == 'scissors' and p2 == 'paper') or (p1 == 'paper' and p2 == 'rock'):
+        return "Player 1 won!"
+    else:
+        return "Player 2 won!"
+    
+player1 = input("Player 1, enter your choice (rock, paper, scissors): ").lower()
+player2 = input("Player 2, enter your choice (rock, paper, scissors): ").lower()
+
+result = rps(player1, player2)
+print(result)
